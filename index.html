@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email-Validator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+
+    <nav>
+
+        <div class="logo">
+          <img src="https://i.pinimg.com/564x/ec/ac/ec/ecacecea7f772095617e92e5c886f321.jpg" alt="email svg">  
+            
+       <span> iValidate</span>    
+        </div>
+    <ul>
+    <li><a href="/">Home</a></li>
+    <li><a href="/">About</a></li>
+   <li><a href="/">Contact us</a></li>
+            </ul>
+    </nav>
+ </header>
+ <main>
+ <div class="container">
+     <h1>Enter Your email to Validate</h1>
+
+     <form action="/submit" method="post">
+        <!-- Text input for username -->
+        <label for="username">Email:</label>
+        <br>
+        <input type="text" placeholder="enter your email to validate" id="username" name="username" required>
+        <br><br>
+    
+       
+    
+        <!-- Submit button -->
+        <input  id="submitbtn"  class="btn" type="submit" value="Submit">
+      </form>
+
+    </div>
+
+    <div  class="container ">
+
+        <h2>Your Results</h2>
+      <div id="resultCont">
+        
+        <img src="./img/Spinner@1x-1.0s-200px-200px.svg"  width="100px">
+
+      </div>
+        
+        </div>
+    
+
+    </main>
+     
+ <footer>
+    Copyrights | iValidate.com | All Rights reserved
+ </footer>
+
+    <Script src="index.js"></Script>
+</body>
+</html>
